@@ -42,6 +42,7 @@ html, body {
   
   h3 {
     font-size: 2.2rem;
+    text-align: center;
   }
   
   p, li {
@@ -132,6 +133,16 @@ html, body {
   
   aside img {
     max-width: 100%;
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: 50%;
+    padding: 0;
+  }
+  .column{
+    flex: 50%;
+    padding: 0;
   }
   
   footer {
