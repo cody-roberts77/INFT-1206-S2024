@@ -74,4 +74,61 @@
     color: blue;
     text-decoration: bold;
   }
+  .Home{
+    border: solid .5px;
+    border-color: #a66;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 9px;
+    text-align: center;
+  }
+
+  .Class{
+    border: solid .5px;
+    border-color: #a66;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 9px;
+    text-align: center;
+  }
+  .Finding{
+    border: solid .5px;
+    border-color: #a66;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 9px;
+    text-align: center;
+  }
+  .Courses{
+    border: solid .5px;
+    border-color: #a66;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 9px;
+    text-align: center;
   
+  }
+  .Staff{
+    border: solid .5px;
+    border-color: #a66;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 9px;
+    text-align: center;
+  }
+  .Media{
+    border: solid .5px;
+    border-color: #a66;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 9px;
+    text-align: center;
+  }
+  .Prospectus{
+    border: solid .5px;
+    border-color: #a66;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 9px;
+    text-align: center;
+  }
