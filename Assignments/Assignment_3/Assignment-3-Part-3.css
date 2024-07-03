@@ -1,11 +1,13 @@
+/* Importing new font */
 @font-face{
   font-family: GraduateFont;
   src: url("Graduate-Regular.tff");
 }
+/* Applies to all */
 * {
   box-sizing: border-box;
 }
-  
+  /* Body CSS */
   body {
     margin: 0 auto;
     min-width: 1000px;
@@ -19,21 +21,22 @@
     float: left;
     width: 50%;
   }
-  
+  /* Aside tag CSS */
   aside {
     float: left;
     width: 30%;
   }
   
+  /* Nav tag CSS */
   nav {
     float: left;
     width: 20%;
   }
-  
+  /* Footer tag CSS  */
   footer {
     clear: both;
   }
-  
+  /* Section, aside, nav, footer tag CSS */
   section, aside, nav, footer {
     padding: 20px;
   }
@@ -45,7 +48,7 @@
     border-bottom: 5px solid #a66;
 
   }
-
+/* H1 tag CSS */
   h1{
     text-align: center;
     font-family: GraduateFont;
@@ -53,27 +56,32 @@
     word-spacing: 10px;
     
   }
- 
+
+ /* All P tag CSS */
   p{
     text-indent: 20px;
   }
-
+/* A tag link color and decoration */
   a:link{
     color: #a66;
     text-decoration: underline;
   }
+  /* A tag link visted CSS */
   a:visited{
     color : aqua;
     text-decoration: none;
   }
+  /* A tag link hover CSS */
   a:hover{
     color: blueviolet;
     text-decoration: none;
   }
+  /* A tag link active CSS */
   a:active{
     color: blue;
     text-decoration: bold;
   }
+  /* Start of CSS for right Menu table */
   .Home{
     border: solid .5px;
     border-color: #a66;
@@ -132,3 +140,5 @@
     padding: 9px;
     text-align: center;
   }
+
+  /* End of right menu table CSS */
