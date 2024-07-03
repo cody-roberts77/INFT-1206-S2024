@@ -1,0 +1,77 @@
+@font-face{
+  font-family: GraduateFont;
+  src: url("Graduate-Regular.tff");
+}
+* {
+  box-sizing: border-box;
+}
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    line-height: 25px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+
+  }
+
+  h1{
+    text-align: center;
+    font-family: GraduateFont;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    
+  }
+ 
+  p{
+    text-indent: 20px;
+  }
+
+  a:link{
+    color: #a66;
+    text-decoration: underline;
+  }
+  a:visited{
+    color : aqua;
+    text-decoration: none;
+  }
+  a:hover{
+    color: blueviolet;
+    text-decoration: none;
+  }
+  a:active{
+    color: blue;
+    text-decoration: bold;
+  }
+  
